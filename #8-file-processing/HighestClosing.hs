@@ -16,3 +16,4 @@ highestCloseFrom :: FilePath -> IO ()
 highestCloseFrom path = do
     contents <- L.readFile path
     print (highestClose contents)
+
